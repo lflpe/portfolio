@@ -9,8 +9,8 @@ export const pt: Translation = {
   },
   hero: {
     greeting: 'Olá, eu sou',
-    name: 'Seu Nome',
-    role: 'Desenvolvedor Full Stack',
+    name: 'Luís Felipe',
+    role: 'Desenvolvedor Front-end',
     subtitle:
       'Apaixonado por criar experiências digitais elegantes e funcionais. Transformo ideias em código limpo e escalável.',
     cta: 'Ver Projetos',
@@ -19,37 +19,45 @@ export const pt: Translation = {
   about: {
     title: 'Sobre Mim',
     paragraphs: [
-      'Sou um desenvolvedor apaixonado por tecnologia e inovação. Com experiência em desenvolvimento web moderno, busco sempre as melhores soluções para os desafios que enfrento.',
-      'Meu foco está em criar aplicações performáticas, acessíveis e com ótima experiência de usuário. Trabalho com as tecnologias mais modernas do ecossistema JavaScript/TypeScript.',
-      'Quando não estou codando, gosto de explorar novas tecnologias, contribuir para projetos open source e compartilhar conhecimento com a comunidade.',
+      'Sou desenvolvedor focado em construir soluções digitais modernas, eficientes e bem estruturadas. Trabalho com TypeScript, React e Vite para criar interfaces performáticas, escaláveis e centradas na experiência do usuário. Valorizo código limpo, arquitetura sólida e boas práticas que garantem manutenção simples e crescimento sustentável dos projetos.',
+      'Tenho forte interesse em transformação digital, otimização de processos e no desenvolvimento de aplicações que gerem impacto real. Busco evolução técnica constante, aplicando padrões atuais de mercado com atenção à qualidade, performance e usabilidade.',
+      'Sou comprometido com aprendizado contínuo, colaboração em equipe e entrega de soluções que conectam tecnologia, estratégia e resultados mensuráveis.',
     ],
   },
   projects: {
     title: 'Projetos',
     items: [
       {
-        title: 'E-Commerce Platform',
+        title: 'Agendamentos Motirõ',
         description:
-          'Plataforma completa de e-commerce com carrinho de compras, autenticação e painel administrativo.',
-        tags: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-        liveLabel: 'Ver Demo',
-        codeLabel: 'Código',
+          'Plataforma de agendamentos internos para a Secretaria de Ciência, Tecnologia e Inovação do Estado de Pernambuco.',
+        tags: ['Bootstrap', 'Javascript', 'HTML5', 'CSS'],
+        liveLabel: '',
+        codeLabel: '',
       },
       {
-        title: 'Task Manager App',
+        title: 'PE Digital',
         description:
-          'Aplicativo de gerenciamento de tarefas com drag-and-drop, filtros e colaboração em tempo real.',
-        tags: ['TypeScript', 'Next.js', 'Prisma', 'Socket.io'],
-        liveLabel: 'Ver Demo',
-        codeLabel: 'Código',
+          'Plataforma onde museus do estado de Pernambuco foram digitalizados e podem ser acessados.',
+        tags: ['TypeScript', 'React', 'Axios', 'TailwindCSS', 'CSS'],
+        liveLabel: 'Ver plataforma',
+        codeLabel: '',
       },
       {
-        title: 'Weather Dashboard',
+        title: 'Site SECTI',
         description:
-          'Dashboard de clima com dados em tempo real, gráficos interativos e previsão para 7 dias.',
-        tags: ['React', 'D3.js', 'OpenWeather API', 'TailwindCSS'],
-        liveLabel: 'Ver Demo',
-        codeLabel: 'Código',
+          'O site da Secretaria de Ciência, Tecnologia e Inovação de Pernambuco foi desenvolvido com arquitetura moderna, foco em performance, segurança e escalabilidade.',
+        tags: ['React', 'TypeScript', 'Axios', 'TailwindCSS'],
+        liveLabel: 'Ver plataforma',
+        codeLabel: '',
+      },
+      {
+        title: 'Sistema Ciência Jovem',
+        description:
+            'O site da Secretaria de Ciência, Tecnologia e Inovação de Pernambuco foi desenvolvido com arquitetura moderna, foco em performance, segurança e escalabilidade.',
+        tags: ['React', 'TypeScript', 'Axios', 'TailwindCSS'],
+        liveLabel: 'Ver plataforma',
+        codeLabel: '',
       },
     ],
   },
@@ -81,8 +89,8 @@ export const en: Translation = {
   },
   hero: {
     greeting: "Hi, I'm",
-    name: 'Your Name',
-    role: 'Full Stack Developer',
+    name: 'Luís Felipe',
+    role: 'Front-end Developer',
     subtitle:
       'Passionate about creating elegant and functional digital experiences. I turn ideas into clean, scalable code.',
     cta: 'View Projects',
@@ -91,9 +99,9 @@ export const en: Translation = {
   about: {
     title: 'About Me',
     paragraphs: [
-      "I'm a developer passionate about technology and innovation. With experience in modern web development, I always seek the best solutions to the challenges I face.",
-      'My focus is on building performant, accessible applications with great user experience. I work with the most modern technologies in the JavaScript/TypeScript ecosystem.',
-      "When I'm not coding, I enjoy exploring new technologies, contributing to open source projects and sharing knowledge with the community.",
+      "I am a developer focused on building modern, efficient, and well-structured digital solutions. I work with TypeScript, React, and Vite to create high-performance, scalable interfaces centered on user experience. I value clean code, solid architecture, and best practices that ensure maintainability and sustainable project growth.",
+      'I have a strong interest in digital transformation, process optimization, and developing applications that generate real impact. I continuously seek technical improvement by applying current industry standards with close attention to quality, performance, and usability.',
+      "I am committed to continuous learning, team collaboration, and delivering solutions that connect technology, strategy, and measurable results.",
     ],
   },
   projects: {
